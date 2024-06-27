@@ -1,0 +1,193 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: century;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../../assets/ftn.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.logo a {
+  color: #fff;
+  padding: 0px 20px;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 900;
+  text-shadow: rgba(0, 0, 0, 0.7);
+}
+
+.logo span {
+  color: rgb(238, 56, 11);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+ul {
+  list-style: none;
+  float: right;
+  display: flex;
+  margin-top: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  margin: 10px;
+  font-weight: 500;
+  transition: 0.6s ease;
+}
+
+ul li a:hover {
+  background: #fff;
+  color: #000;
+}
+
+ul li.active a {
+  background: #fff;
+  color: #000;
+}
+
+.principale {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.titre {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.titre h1 {
+  color: #fff;
+  font-size: 70px;
+}
+
+.bouton {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bouton a {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+}
+
+.btn {
+  transition: 0.6s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.carre-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.carre {
+  color: #000000;
+  width: 325px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgb(255, 255, 255);
+  margin: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.carre:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.carre .img-vo {
+  width: 100%;
+  height: auto;
+}
+
+.home-footer {
+  color: #fff;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: center;
+  width: 100%;
+}
+
+.armes-footer {
+  color: #fff;
+  display: flex;
+  position: relative;
+  bottom: 0;
+  justify-content: center;
+  width: 100%;
+}
+
+.carte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 95%;
+  max-height: 95%;
+}
+
+.carte img {
+  max-width: 50%;
+  height: auto;
+  padding-bottom: 200px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+}
+
+video {
+  max-width: 70%;
+  max-height: 70%;
+  margin-bottom: 70px;
+}
+
+.titre_actus {
+  color: #fff;
+  font-size: 40px;
+  display: inline-block !important;
+  margin-bottom: 70px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+}/*# sourceMappingURL=style.css.map */
